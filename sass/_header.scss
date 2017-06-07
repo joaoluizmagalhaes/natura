@@ -12,8 +12,8 @@ header.main-header {
 		width: 100%;
 		height: 46px;
 		top: 0;
-		font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-		font-size: 10px;
+		font-family: $helvetica;
+		font-size: 9px;
 		font-weight: bold;
 		color: white;
 		line-height: 13px;
@@ -36,7 +36,7 @@ header.main-header {
 		}
 
 		.consultor {
-			background-color: #e47839;
+			background-color: $lightOrange;
 			width: 185px;
 			height: auto;
 			text-align: left;
@@ -105,7 +105,7 @@ header.main-header {
 			nav.aux-menu {
 				display: inline-block;
 				font-size: 12px;
-				font-weight: bold;
+				font-weight: 400;
 				text-transform: uppercase;
 				
 				.aux-menu-wrapper {
@@ -148,7 +148,6 @@ header.main-header {
 				text-decoration-line: none;
 				font-size: 12px;
 				float: right;
-				margin-top: 11px;
 				margin-left: 13px;
 				font-weight: bold;
 

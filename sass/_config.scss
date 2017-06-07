@@ -1,2 +1,26 @@
-$orange:  #dd5d39;
+$lightOrange:  #e47839;
+$orange: #dd5d39;
 $gillsans: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+$helvetica: "Helvetica Neue", Helvetica, Arial, sans-serif;
+
+@font-face {
+	font-family: NaturaScript;
+	src: url(../fonte-natura/NaturaScript.otf);
+	font-weight: 400;
+}
+
+$naturaScript: NaturaScript;
+
+@font-face {
+	font-family: NaturaSansRegular;
+	src: url(../fonte-natura/NaturaSans-Regular.otf);
+}
+
+$naturaSansRegular: NaturaSansRegular;
+
+@font-face {
+	font-family: NaturaSansBold;
+	src: url(../fonte-natura/NaturaSans-Bold.otf);
+}
+
+$naturaSansBold: NaturaSansBold;
