@@ -8,7 +8,7 @@ A pagian esta totalmente estatica, somente com callbacks do moda e carousel, poi
 Nesse projeto foram utilizadas as seguintes tecnologias:
 
 	* Bootstrap - Modal e Columns
-	* SLick - Carousel
+	* Slick - Carousel
 	* FontAwesome - Icones
 	* jQuery
 	* Sass 
