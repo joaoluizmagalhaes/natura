@@ -1,6 +1,9 @@
 .main-footer {
 	background-color: $lightOrange;
 	position: relative;
+	font-family: $gillsans;
+	text-align: left;
+	
 
 	.wrapper {
 		position: relative;
@@ -13,14 +16,107 @@
 			border-color: #ffffff transparent transparent transparent;
 			position: absolute;
 		}
-	}
+	
 
-	.first-footer-menu {
+		.footer-menu {
+			font-size: 16px;
+			color: white;
+			padding: 50px 15px 30px;
 
+			nav.footer-nav {
+				.footer-nav-title {
+					text-transform: uppercase;
+					font-weight: bold;
+					
+				}
+
+				.footer-nav-list {
+					padding: 0;
+					margin: 0;
+
+					.footer-nav-list-iten {
+						list-style: none;
+
+						a {
+							color: white;
+							text-decoration-line: none;
+
+						}
+
+						&.atendimento {						
+							padding: 15px 0 15px 40px;
+							position: relative;
+
+
+							.fa {
+								color: #ab5a2b;
+								font-size: 30px;
+								position: absolute;
+								top: 11px;
+								left: 0;
+							}
+
+							&:first-child {
+								border-bottom: 1px solid white;
+							}
+
+							&:last-child {
+								border-top: 1px solid white;
+							}
+						}
+					}
+				}
+			}
+
+			.footer-border-bottom {
+				border-bottom: 1px solid white;
+				padding-bottom: 15px;
+				margin-bottom: 15px;
+			}
+		}
+
+		.last-footer {
+			text-align: right;
+			padding: 50px 15px;
+		}
 	}
 
 	.bottom-footer {
 		background-color: $orange;
 		padding: 30px 0;
+
+		.legal-menu {
+			font-size: 13px;
+			color: white;
+
+			.legal-menu-copyright {
+				text-transform: uppercase;
+				display: inline-block;
+
+			}
+
+			.legal-menu-list {
+				margin: 0;
+				padding: 0;
+				display: inline-block;
+
+				.legal-menu-list-iten {
+					padding: 0 10px;
+					border-left: 1px solid white;
+					list-style: none;
+					display: inline-block;
+
+					a {
+						color: white;
+						text-decoration-line: none;
+
+					}
+
+					&:first-child {
+						border-left: 0;
+					}
+				}
+			}
+		}
 	}
 }

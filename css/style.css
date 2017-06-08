@@ -366,7 +366,9 @@ header.main-header {
 
 .main-footer {
   background-color: #e47839;
-  position: relative; }
+  position: relative;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, sans-serif;
+  text-align: left; }
   .main-footer .wrapper {
     position: relative; }
     .main-footer .wrapper .triangle {
@@ -376,8 +378,63 @@ header.main-header {
       border-width: 30px 30px 0 0;
       border-color: #ffffff transparent transparent transparent;
       position: absolute; }
+    .main-footer .wrapper .footer-menu {
+      font-size: 16px;
+      color: white;
+      padding: 50px 15px 30px; }
+      .main-footer .wrapper .footer-menu nav.footer-nav .footer-nav-title {
+        text-transform: uppercase;
+        font-weight: bold; }
+      .main-footer .wrapper .footer-menu nav.footer-nav .footer-nav-list {
+        padding: 0;
+        margin: 0; }
+        .main-footer .wrapper .footer-menu nav.footer-nav .footer-nav-list .footer-nav-list-iten {
+          list-style: none; }
+          .main-footer .wrapper .footer-menu nav.footer-nav .footer-nav-list .footer-nav-list-iten a {
+            color: white;
+            text-decoration-line: none; }
+          .main-footer .wrapper .footer-menu nav.footer-nav .footer-nav-list .footer-nav-list-iten.atendimento {
+            padding: 15px 0 15px 40px;
+            position: relative; }
+            .main-footer .wrapper .footer-menu nav.footer-nav .footer-nav-list .footer-nav-list-iten.atendimento .fa {
+              color: #ab5a2b;
+              font-size: 30px;
+              position: absolute;
+              top: 11px;
+              left: 0; }
+            .main-footer .wrapper .footer-menu nav.footer-nav .footer-nav-list .footer-nav-list-iten.atendimento:first-child {
+              border-bottom: 1px solid white; }
+            .main-footer .wrapper .footer-menu nav.footer-nav .footer-nav-list .footer-nav-list-iten.atendimento:last-child {
+              border-top: 1px solid white; }
+      .main-footer .wrapper .footer-menu .footer-border-bottom {
+        border-bottom: 1px solid white;
+        padding-bottom: 15px;
+        margin-bottom: 15px; }
+    .main-footer .wrapper .last-footer {
+      text-align: right;
+      padding: 50px 15px; }
   .main-footer .bottom-footer {
     background-color: #dd5d39;
     padding: 30px 0; }
+    .main-footer .bottom-footer .legal-menu {
+      font-size: 13px;
+      color: white; }
+      .main-footer .bottom-footer .legal-menu .legal-menu-copyright {
+        text-transform: uppercase;
+        display: inline-block; }
+      .main-footer .bottom-footer .legal-menu .legal-menu-list {
+        margin: 0;
+        padding: 0;
+        display: inline-block; }
+        .main-footer .bottom-footer .legal-menu .legal-menu-list .legal-menu-list-iten {
+          padding: 0 10px;
+          border-left: 1px solid white;
+          list-style: none;
+          display: inline-block; }
+          .main-footer .bottom-footer .legal-menu .legal-menu-list .legal-menu-list-iten a {
+            color: white;
+            text-decoration-line: none; }
+          .main-footer .bottom-footer .legal-menu .legal-menu-list .legal-menu-list-iten:first-child {
+            border-left: 0; }
 
 /*# sourceMappingURL=style.css.map */
